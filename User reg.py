@@ -1,9 +1,5 @@
 #this is me building a users registration/login system
 USER_DETAILS_FILEPATH = "allusers.txt"
-import hashlib
-import secrets
-import string
-from getpass import getpass
 
 def option():
     print("1. Register\n2. Login\n3. Exit\n")
